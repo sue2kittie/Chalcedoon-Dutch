@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/* Resetting CSS */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+	margin:0;
+	padding:0;
+}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+a{
+text-decoration:none;
+}
+/*global styles*/
+
+ul li {
+	padding:0;
+	margin:0;
+}
+img a, a img {
+	border:0;
+}
+.clear-fix,.main, header nav, footer{
+	clear:both;
+}
+.inner-shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+.box{	
+	border: 4px solid #505984;
+	border: 4px solid #374a93;
+	-webkit-border-radius: 2px;
+	box-shadow:2px 2px 3px #222a58;
+	-moz-box-shadow: 2px 2px 3px #222a58;
+	-webkit-box-shadow: 2px 2px 3px #222a58;
+	-ms-box-shadow:2px 2px 3px #222a58;
+	}
+.button{
+	min-width:100px;
+	border-radius: 0.4em;
+	background-color: #454545;
+	border-color: #333 #333 black;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+	outline: 0;
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#474747,EndColorStr=#2b2b2b);
+	background-image: -moz-linear-gradient(top,#474747 0,#2B2B2B 100%);
+	background-image: -ms-linear-gradient(top,#474747 0,#2B2B2B 100%);
+	background-image: -o-linear-gradient(top,#474747 0,#2B2B2B 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#474747),color-stop(100%,#2B2B2B));
+	background-image: -webkit-linear-gradient(top,#474747 0,#2B2B2B 100%);
+	background-image: linear-gradient(to bottom,#474747 0,#2B2B2B 100%);
+}
+p, h1, h2, h3, h4, h5, h6, a, li, small, address {
+	font-family:  Verdana, Geneva, sans-serif;
+	}
+.cl{
+	width:30%;
+	float:left;
+}
+.cr{
+	width:30%;
+	float:right;
+}
+/*End of Global Style*/
+body {
+	background:#CCC url(../img/bg-body.gif);
+	 }
+#wrapper{
+	width:980px;
+	min-height:700px;
+	margin:auto;
+	background:#FFF;
+	border:1px solid #eee;
+}
+header{
+	width:100%;
+	height:120px;
+	background:url(../img/bg-header.jpg) repeat-x;
+	position:relative;
+	}
+header img{
+float: left;
+margin-left: 95px;
+margin-top: 38px;
+}
+header h1{
+background:url(../img/logo-chalcedoon.png) no-repeat;
+width:170px;
+height:55px;
+float: left;
+margin-left: 30px;
+margin-top: 5px;
+display:block;
+}
+header h2{
+color:#f8f8f8;
+font-size:15px;
+font-style: italic;
+/*float:left;
+margin-left: 67px;
+margin-top: -8px;	
+font-style: italic;*/
+position: absolute;
+top: 51px;
+left: 266px;
+	
+}
+/*General*/
+.invisible-txt{
+	text-indent:-99999px;
+}
+
+.main-pic{
+	display:block;
+	margin:auto;
+}
+#coming-soon{
+	color: #3D7BD0;
+	font-size: 50px;
+	display: block;
+	margin-top:20px;
+	margin: auto;
+	text-align:center;
+}
+address h3{
+	color: #3D7BD0;
+	font-size:25px;
+	text-align:center;
+}
+address p, footer {
+	color:#505984;
+	font-style:italic;
+	font-size:14px;
+	text-align:center;
+	margin-top:10px;
+	}
+footer{
+	border-top:2px solid #505984;
+}
+footer p{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+address.cl{
+	margin:20px;
+	margin-left: 113px;
+}
+address.cr{
+	margin:20px;
+	margin-right:100px;
+}
